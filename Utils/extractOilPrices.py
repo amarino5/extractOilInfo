@@ -6,6 +6,7 @@ import urllib2
 import logging
 from pymongo import MongoClient
 
+
 logging.basicConfig(filename='/home/osboxes/dev/extractOilInfo/log/execution.log',level=logging.DEBUG)
 logging.info("Starting getting oil information.....")
 url_precios = "https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/"
